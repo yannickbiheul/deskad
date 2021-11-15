@@ -52,6 +52,7 @@ class Post
     public function __construct()
     {
         $this->category = new ArrayCollection();
+        $this->createdAt = new \DateTime();
     }
 
     public function getId(): ?int
@@ -139,6 +140,18 @@ class Post
     public function setIframe(?string $iframe): self
     {
         $this->iframe = $iframe;
+
+        return $this;
+    }
+
+    public function getPhotos(): ?array
+    {
+        return $this->photos;
+    }
+
+    public function setPhotos(?array $photos): self
+    {
+        $this->photos = $photos;
 
         return $this;
     }

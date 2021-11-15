@@ -11,7 +11,7 @@
             {% for category in categories %}
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                     {{ category.title }}
-                    <span class="badge bg-info rounded-pill">14</span>
+                    <span class="badge bg-primary rounded-pill">14</span>
                 </li>
             {% endfor %}
         </ul>
@@ -21,7 +21,7 @@
         <div class="row">
         <h3 class="text-center">Tous les articles</h3>
         {% for post in posts %}
-            <div class="card" style="width: 18rem; margin: 20px;">
+            <div class="card" style="width: 18rem; margin: 20px; padding: 5px; border: 2px solid #000; color: #000; box-shadow: 4px 4px 4px #000;">
                 <img src="assets/images/posts/{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
                 <div class="card-body">
                     <h5 class="card-title">{{ post.title }}</h5>

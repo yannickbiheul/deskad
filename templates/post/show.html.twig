@@ -4,7 +4,7 @@
 
 {% block body %}
 
-    <div class="container">
+    <div class="container" style="padding: 20px 0;">
         <h1 class="title p-1">{{ post.title }}</h1>
         <small>Le {{ post.createdAt | date("d/m/Y") }} à {{ post.createdAt | date("H:i") }}</small>
         <div class="img-fluid">
@@ -14,6 +14,20 @@
         <p class="content text-justify">
             {{ post.content | raw }}
         </p>
+
+        {% if post.iframe %}
+            <div class="iframe container">
+                <iframe src="{{ post.iframe }}" width="100%" height="400px"></iframe>
+            </div>
+        {% endif %}
+
+        {% if post.photos %}
+            {% for post.photo in post.photos %}
+                <img src="/assets/images/posts/{{ post.photo }}.jpg" alt="{{ post.photo }}">
+            {% endfor %}
+        {% endif %}
+        
+        
     </div>
 
 {% endblock %}
