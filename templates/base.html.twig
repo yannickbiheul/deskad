@@ -9,61 +9,30 @@
         {% block stylesheets %}
             {#{{ encore_entry_link_tags('app') }}#}
         {% endblock %}
+        {# CSS #}
         <link rel="stylesheet" href="/assets/css/main.css">
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-
+        {# FONTS #}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap" rel="stylesheet">
         {% block javascripts %}
             {#{{ encore_entry_script_tags('app') }}#}
         {% endblock %}
     </head>
-    <body class="main">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">Deskad</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                    <a class="nav-link active" href="/">Accueil
-                        <span class="visually-hidden">(current)</span>
-                    </a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="{{ path('posts') }}">Articles</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">À propos</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projets</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Mon site</a>
-                        <a class="dropdown-item" href="#">Pied de vigne</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Mon profil CodePen</a>
-                        <a class="dropdown-item" href="#">Mon profil GitHub</a>
-                    </div>
-                    </li>
-                </ul>
-                
-                <a href="#" class="btn btn-secondary my-2 my-sm-0" title="Prochainement !">Connexion</a>
-                
-                </div>
-            </div>
-            </nav>
-        </header>
+    <body class="main">
+        
+        {% include "partials/header.html.twig" %}
 
         <div class="container-fluid">
             {% block body %}{% endblock %}
         </div>
 
+        {% include "partials/footer.html.twig" %}
+
+        {# JAVASCRIPT #}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="/assets/js/meteo.js">
     </body>
 </html>
