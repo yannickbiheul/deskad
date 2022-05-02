@@ -4,24 +4,149 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>110</y>
-      <w>210</w>
+      <x>410</x>
+      <y>380</y>
+      <w>160</w>
       <h>190</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
-Package::FatClass
-{Some Properties}
+    <panel_attributes>User
 --
--id: Long {composite}
-_-ClassAttribute: Long_
+-id: int
+-firstname: string
+-lastname: string
+-pseudo: string
+-email: string
+-password: string
+-createdAt: datetime
+-statut: string
 --
-#Operation(i: int): int
-/+AbstractOperation()/
+#connexion()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>760</x>
+      <y>250</y>
+      <w>170</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Post
 --
-Responsibilities
--- Resp1
--- Resp2</panel_attributes>
+-id: int
+-title: string
+-image: string
+-legend: string
+-content: text
+-iframe: text
+-createdAt: datetime
+-statut: string
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>770</x>
+      <y>550</y>
+      <w>160</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Comment
+--
+-id: int
+-user: User
+-content: text
+-createdAt: datetime
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>290</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Category
+--
+-id: int
+-name: string
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>920</x>
+      <y>300</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1..n
+have &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>830</x>
+      <y>430</y>
+      <w>80</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..1
+m2=0..n
+have &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>470</y>
+      <w>230</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1..1
+m2=0..n
+have &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>570</x>
+      <y>240</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>statut du Post : 
+Post ou Guide</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>240</x>
+      <y>380</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>statut du User : 
+User ou Admin</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
