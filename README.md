@@ -99,13 +99,13 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
 ## Cas système
 
-![cas_systeme.png](Diagrammes/images/cas_systeme.png)
+![cas_systeme.png](./Diagrammes/images/cas_systeme.png)
 
 ## Cas utilisation
 
-![cas_utilisation.png](Diagrammes/images/cas_utilisation.png)
+![cas_utilisation.png](./Diagrammes/images/cas_utilisation.png)
 
 ## Classes
 
-![classes.png](Diagrammes/images/classes.png)
+![classes.png](./Diagrammes/images/classes.png)
 
