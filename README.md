@@ -99,13 +99,13 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
 ## Cas système
 
-![cas_systeme.png](Cahier%20des%20charges%20f8d239c1c9044b1e8752a0cc39b77bde/cas_systeme.png)
+![cas_systeme.png](Diagrammes/images/cas_systeme.png)
 
 ## Cas utilisation
 
-![cas_utilisation.png](Cahier%20des%20charges%20f8d239c1c9044b1e8752a0cc39b77bde/cas_utilisation.png)
+![cas_utilisation.png](Diagrammes/images/cas_utilisation.png)
 
 ## Classes
 
-![classes.png](Cahier%20des%20charges%20f8d239c1c9044b1e8752a0cc39b77bde/classes.png)
+![classes.png](Diagrammes/images/classes.png)
 
