@@ -40,6 +40,8 @@ Inspiré du site “Typewolf”
 
 ### Fond
 
+Fond sombre avec polices en blanc.
+
 Pinot noir
 
 ```css
@@ -65,8 +67,31 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
     - Deskad, Blog made in Quimper
 - Menu de navigation
     - Articles, Guides, Contact
+- Bouton de connexion / profil
 - 10 derniers articles
 - Footer
 
-# Spécifications techniques
+## Articles
+
+- 2 colonnes
+- A gauche les catégories
+- A droite les articles
+
+# Outils
+
+## Cahier des charges
+
+- Notion
+
+## Diagrammes
+
+- UMLet
+
+## Modèle Conceptuel de Données
+
+- jMerise
+
+## Base de données
+
+- MySQL / phpmyadmin
 
