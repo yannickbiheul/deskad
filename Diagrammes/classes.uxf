@@ -27,10 +27,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>760</x>
-      <y>250</y>
-      <w>170</w>
-      <h>190</h>
+      <x>700</x>
+      <y>110</y>
+      <w>230</w>
+      <h>330</h>
     </coordinates>
     <panel_attributes>Post
 --
@@ -38,7 +38,16 @@
 -title: string
 -image: string
 -legend: string
--content: text
+-title1: string
+-content1: text
+-title2: string
+-content2: text
+-title3: string
+-content3: text
+-title4: string
+-content4: text
+-title5: string
+-content5: text
 -iframe: text
 -createdAt: datetime
 -statut: string
@@ -128,8 +137,8 @@ have &gt;</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>570</x>
-      <y>240</y>
+      <x>490</x>
+      <y>200</y>
       <w>140</w>
       <h>70</h>
     </coordinates>
