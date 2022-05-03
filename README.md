@@ -2,12 +2,7 @@
 
 # Description du projet
 
-Un blog qui me permet de partager des articles et des guides sur différents sujets (développement, musique, jeux vidéo, etc...).
-
-- 1ère itération sans framework.
-- 2ème itération avec Bootstrap
-- 3ème itération avec Symfony
-- 4ème itération avec Vue.js
+Partager des articles sur différents sujets (développement, musique, jeux vidéo, etc...) depuis un pc ou un smartphone
 
 # Fonctionnalités
 
@@ -24,6 +19,12 @@ Admin :
 
 - Créer un article
     - Format différent pour les musiques (vidéo YouTube)
+        - Iframe
+        - Image (pour la carte dans Accueil et Articles, non affichée)
+        - Contenu (optionnel)
+    - Articles avec contenu et photos
+    - Articles sans contenu mais avec des photos
+    - Un tableau String dans le champ “image” de l’article en base de données ?
 - Partager un article
     - Permettre de copier le lien de la page
 - Articles rangés par catégories
@@ -66,16 +67,61 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 - Titre + sous-titre
     - Deskad, Blog made in Quimper
 - Menu de navigation
-    - Articles, Guides, Contact
+    - User
+        - Articles, Contact
+    - Admin
+        - Articles, Contact, Admin
 - Bouton de connexion / profil
 - 10 derniers articles
 - Footer
+
+## Admin
+
+- Articles
+    - Voir les articles
+    - Modifier
+    - Supprimer
+    - Ajouter
+- Catégories
+    - Voir les catégories
+    - Modifier
+    - Supprimer
+    - Ajouter
+- Utilisateurs
+    - Voir les utilisateurs
+
+## Profil
 
 ## Articles
 
 - 2 colonnes
 - A gauche les catégories
 - A droite les articles
+
+## Article
+
+- En colonne
+- Titre
+- Catégorie, Auteur, Date
+- Image
+- Légende
+- Si un contenu est présent
+    - Contenu
+        - title1
+        - content1
+        - etc...
+- Si il y a juste des photos
+    - Grille des photos
+- Si utilisateur connecté, formulaire d’ajout commentaire
+    - Sinon, bouton “Se connecter”
+- Commentaires
+    - Date, auteur
+    - Contenu
+
+## Contact
+
+- En colonne
+- Formulaire de contact
 
 # Outils
 
@@ -94,6 +140,13 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 ## Base de données
 
 - MySQL / phpmyadmin
+
+# Itérations
+
+- 1ère itération sans framework.
+- 2ème itération avec Bootstrap
+- 3ème itération avec Symfony
+- 4ème itération avec Vue.js
 
 # Diagrammes
 
