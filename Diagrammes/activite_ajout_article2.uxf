@@ -105,7 +105,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>620</x>
-      <y>490</y>
+      <y>400</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -116,7 +116,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>620</x>
-      <y>570</y>
+      <y>480</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -127,7 +127,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>690</x>
-      <y>540</y>
+      <y>450</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -138,7 +138,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>620</x>
-      <y>650</y>
+      <y>560</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -149,7 +149,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>690</x>
-      <y>620</y>
+      <y>530</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -160,7 +160,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>690</x>
-      <y>700</y>
+      <y>610</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -184,10 +184,10 @@ style=wordwrap</panel_attributes>
       <x>690</x>
       <y>350</y>
       <w>30</w>
-      <h>80</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Text</id>
@@ -207,10 +207,10 @@ style=wordwrap</panel_attributes>
       <x>710</x>
       <y>330</y>
       <w>320</w>
-      <h>100</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>300.0;80.0;300.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>300.0;70.0;300.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Text</id>
@@ -230,10 +230,10 @@ style=wordwrap</panel_attributes>
       <x>400</x>
       <y>330</y>
       <w>300</w>
-      <h>100</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;80.0;10.0;10.0;280.0;10.0</additional_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0;280.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Text</id>
@@ -251,7 +251,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>330</x>
-      <y>490</y>
+      <y>400</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -262,7 +262,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>930</x>
-      <y>490</y>
+      <y>400</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -273,7 +273,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>700</y>
+      <y>610</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -284,7 +284,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>330</x>
-      <y>650</y>
+      <y>560</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -295,7 +295,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>620</y>
+      <y>530</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -306,7 +306,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>330</x>
-      <y>570</y>
+      <y>480</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -317,7 +317,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>540</y>
+      <y>450</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -328,7 +328,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1000</x>
-      <y>700</y>
+      <y>610</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -339,7 +339,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>930</x>
-      <y>650</y>
+      <y>560</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -350,7 +350,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1000</x>
-      <y>620</y>
+      <y>530</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -361,7 +361,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>930</x>
-      <y>570</y>
+      <y>480</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -372,7 +372,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1000</x>
-      <y>540</y>
+      <y>450</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -383,7 +383,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>330</x>
-      <y>730</y>
+      <y>640</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -394,7 +394,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>780</y>
+      <y>690</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -405,7 +405,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>620</x>
-      <y>730</y>
+      <y>640</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -416,7 +416,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>690</x>
-      <y>780</y>
+      <y>690</y>
       <w>30</w>
       <h>90</h>
     </coordinates>
@@ -427,7 +427,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>930</x>
-      <y>730</y>
+      <y>640</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -438,7 +438,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1000</x>
-      <y>780</y>
+      <y>690</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -449,7 +449,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>330</x>
-      <y>810</y>
+      <y>720</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -460,7 +460,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>860</y>
+      <y>770</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -471,7 +471,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>940</y>
+      <y>850</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -482,7 +482,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>330</x>
-      <y>890</y>
+      <y>800</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -493,7 +493,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>1020</y>
+      <y>930</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -504,7 +504,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>330</x>
-      <y>970</y>
+      <y>880</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -515,7 +515,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>1100</y>
+      <y>1010</y>
       <w>240</w>
       <h>90</h>
     </coordinates>
@@ -526,7 +526,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>330</x>
-      <y>1050</y>
+      <y>960</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -537,7 +537,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>930</x>
-      <y>810</y>
+      <y>720</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -548,7 +548,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>770</x>
-      <y>860</y>
+      <y>770</y>
       <w>260</w>
       <h>330</h>
     </coordinates>
@@ -559,7 +559,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>620</x>
-      <y>850</y>
+      <y>760</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -570,7 +570,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>690</x>
-      <y>900</y>
+      <y>810</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -581,7 +581,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>620</x>
-      <y>930</y>
+      <y>840</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -592,7 +592,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>690</x>
-      <y>980</y>
+      <y>890</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -603,7 +603,7 @@ style=wordwrap</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>620</x>
-      <y>1010</y>
+      <y>920</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -614,7 +614,7 @@ style=wordwrap</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>690</x>
-      <y>1060</y>
+      <y>970</y>
       <w>30</w>
       <h>100</h>
     </coordinates>
@@ -625,7 +625,7 @@ style=wordwrap</panel_attributes>
     <id>UMLObject</id>
     <coordinates>
       <x>540</x>
-      <y>810</y>
+      <y>720</y>
       <w>310</w>
       <h>290</h>
     </coordinates>
@@ -638,7 +638,7 @@ halign=left</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>690</x>
-      <y>1230</y>
+      <y>1140</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -649,7 +649,7 @@ halign=left</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>620</x>
-      <y>1140</y>
+      <y>1050</y>
       <w>160</w>
       <h>60</h>
     </coordinates>
@@ -660,77 +660,11 @@ halign=left</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>690</x>
-      <y>1190</y>
+      <y>1100</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>330</x>
-      <y>410</y>
-      <w>160</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Ajouter catégorie</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>400</x>
-      <y>460</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>620</x>
-      <y>410</y>
-      <w>160</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Ajouter catégorie</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>690</x>
-      <y>460</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>930</x>
-      <y>410</y>
-      <w>160</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>Ajouter catégorie</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1000</x>
-      <y>460</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
