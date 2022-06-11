@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="15.0.0">
-  <zoom_level>10</zoom_level>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>410</x>
-      <y>380</y>
-      <w>160</w>
-      <h>190</h>
-    </coordinates>
-    <panel_attributes>User
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>200</x><y>310</y><w>160</w><h>150</h></coordinates><panel_attributes>User
 --
 -id: int
 -firstname: string
@@ -18,21 +7,9 @@
 -email: string
 -password: string
 -createdAt: datetime
--statut: string
 --
-#connexion()
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>700</x>
-      <y>110</y>
-      <w>230</w>
-      <h>330</h>
-    </coordinates>
-    <panel_attributes>Post
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>490</x><y>40</y><w>230</w><h>290</h></coordinates><panel_attributes>Post
 --
 -id: int
 -title: string
@@ -50,21 +27,9 @@
 -content5: text
 -iframe: text
 -createdAt: datetime
--statut: string
 --
 
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>770</x>
-      <y>550</y>
-      <w>160</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>Comment
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>480</y><w>160</w><h>120</h></coordinates><panel_attributes>Comment
 --
 -id: int
 -user: User
@@ -72,90 +37,41 @@
 -createdAt: datetime
 --
 
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1080</x>
-      <y>290</y>
-      <w>120</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>Category
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>870</x><y>220</y><w>120</w><h>80</h></coordinates><panel_attributes>Category
 --
 -id: int
 -name: string
 --
 
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>920</x>
-      <y>300</y>
-      <w>180</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>230</y><w>180</w><h>50</h></coordinates><panel_attributes>lt=-
 m1=0..n
 m2=1..n
-have &gt;</panel_attributes>
-    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>830</x>
-      <y>430</y>
-      <w>80</w>
-      <h>140</h>
-    </coordinates>
-    <panel_attributes>lt=-
+have &gt;</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>320</y><w>70</w><h>180</h></coordinates><panel_attributes>lt=-
 m1=1..1
 m2=0..n
-have &gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>560</x>
-      <y>470</y>
-      <w>230</w>
-      <h>160</h>
-    </coordinates>
-    <panel_attributes>lt=-
+have &gt;</panel_attributes><additional_attributes>10;10;10;160</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>400</y><w>230</w><h>160</h></coordinates><panel_attributes>lt=-
 m1=1..1
 m2=0..n
-have &gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;210.0;140.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>490</x>
-      <y>200</y>
-      <w>140</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>statut du Post : 
-Post ou Guide</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLNote</id>
-    <coordinates>
-      <x>240</x>
-      <y>380</y>
-      <w>140</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>statut du User : 
-User ou Admin</panel_attributes>
-    <additional_attributes/>
-  </element>
-</diagram>
+have &gt;</panel_attributes><additional_attributes>10;10;210;140</additional_attributes></element><element><id>UMLClass</id><coordinates><x>880</x><y>480</y><w>230</w><h>230</h></coordinates><panel_attributes>Place
+--
+-id: int
+-name: string
+-image1: string
+-image2: string
+-image3: string
+-image4: string
+-image5: string
+-image6: string
+-image7: string
+-image8: string
+-image9:string
+-image10: string
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1140</x><y>200</y><w>190</w><h>110</h></coordinates><panel_attributes>Music
+--
+-id: string
+-title: string
+-iframe: text
+-description: text
+--
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
